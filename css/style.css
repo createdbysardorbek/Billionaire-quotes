@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.testimonial {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+}
+.testimonial .toggler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 650px;
+  right: 450px;
+  width: 112px;
+  height: 56px;
+  color: #8585AC;
+  font-size: 18px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+          box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+  border-radius: 28px;
+  z-index: 100;
+  padding: 20px 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.testimonial .toggler ion-icon {
+  cursor: pointer;
+}
+.testimonial .testimonial__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.testimonial .testimonial__bottom .quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.testimonial .testimonial__bottom .quote p {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 32px;
+}
+.testimonial .testimonial__bottom .quote .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.testimonial .testimonial__bottom .quote .author .author__name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #202047;
+  margin-right: 10px;
+}
+.testimonial .testimonial__bottom .quote .author .author__proffesion {
+  font-weight: 500;
+  font-size: 20px;
+  color: #B9B9CE;
+}
+.testimonial .testimonial__bottom .quote.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.testimonial .testimonial__bottom .testimonial__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.testimonial .testimonial__bottom .testimonial__img img {
+  width: 540px;
+  height: 540px;
+}
+.testimonial .testimonial__bottom .testimonial__img.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */

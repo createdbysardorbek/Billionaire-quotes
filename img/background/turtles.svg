@@ -1,0 +1,11 @@
+<svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 7">
+<path id="Combined Shape" opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M0 100V0H52.6154L24.8579 100H0ZM67.3846 100V0H120L92.2426 100H67.3846Z" fill="url(#paint0_linear_0_259)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_259" x1="83.744" y1="117.316" x2="149.909" y2="28.425" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9975D0"/>
+<stop offset="1" stop-color="#4A3FDB"/>
+</linearGradient>
+</defs>
+</svg>
